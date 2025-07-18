@@ -19,15 +19,19 @@
   }
 }
 </script>
+<!-- Tambahkan Babel Standalone untuk transpilation di browser -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="index.tsx"></script>
+    <!-- Ubah tipe menjadi "text/babel" dan tentukan sebagai modul untuk memungkinkan transpilation -->
+    <script type="text/babel" data-type="module" src="index.tsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          // Gunakan path relatif untuk service worker agar lebih portabel
+          navigator.serviceWorker.register('./sw.js')
             .then(registration => {
               console.log('ServiceWorker registration successful with scope: ', registration.scope);
             })

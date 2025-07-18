@@ -4,7 +4,7 @@
   "description": "Unggah video dan dapatkan narasi yang dibuat secara otomatis oleh AI.",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "icon.svg",
       "type": "image/svg+xml",
       "sizes": "any"
     }

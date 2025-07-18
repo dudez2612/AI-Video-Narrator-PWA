@@ -1,10 +1,10 @@
 const CACHE_NAME = 'ai-video-narrator-v1';
 const APP_SHELL_URLS = [
-  '/',
-  '/index.html',
-  '/index.css',
-  '/manifest.json',
-  '/icon.svg'
+  './',
+  './index.html',
+  './index.css',
+  './manifest.json',
+  './icon.svg'
 ];
 
 self.addEventListener('install', (event) => {
