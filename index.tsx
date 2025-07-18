@@ -4,7 +4,7 @@
  */
 
 import * as React from 'react';
-import { createRoot } from 'react-dom-client';
+import { createRoot } from 'react-dom/client';
 import { GoogleGenAI, Type } from "@google/genai";
 
 // Tipe untuk data narasi yang terstruktur
