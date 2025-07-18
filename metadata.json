@@ -1,0 +1,6 @@
+{
+  "name": "AI Video Narrator PWA",
+  "description": "Upload a video and get an AI-generated narration.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

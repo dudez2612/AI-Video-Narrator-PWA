@@ -1,0 +1,16 @@
+{
+  "short_name": "Narator AI",
+  "name": "Narator Video AI",
+  "description": "Unggah video dan dapatkan narasi yang dibuat secara otomatis oleh AI.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff"
+}
